@@ -26,7 +26,7 @@ python .\stocks_features.py --stock_code 2330 --feature 1
 
 ### return Annual Percentage Rate
 
-## Volatility:
+## Volatility
 
 ### Feature 2
 

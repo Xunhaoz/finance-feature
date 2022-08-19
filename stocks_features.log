@@ -1,0 +1,138 @@
+INFO:root:True
+INFO:root:False
+INFO:root:False
+INFO:root:end_date: 2022-08-19, start_date:2022-08-09
+INFO:root:False
+INFO:root:False
+INFO:root:end_date: 2022-08-19, start_date:2022-08-09
+INFO:root:False
+INFO:root:end_date: 2022-08-19, start_date:2022-08-09
+INFO:root:False
+INFO:root:end_date: 2022-08-19, start_date:2022-08-09
+INFO:root:False
+INFO:root:end_date: 2022-08-19, start_date:2022-08-09
+INFO:root:False
+INFO:root:end_date: 2022-08-19, start_date:2022-08-09
+INFO:root:False
+INFO:root:end_date: 2022-08-19, start_date:2022-08-09
+INFO:root:False
+INFO:root:stock_crawer.py function execution
+INFO:root:end_date: 2022-08-19, start_date:2022-08-09
+INFO:root:False
+INFO:root:stock_crawer.py function execution
+INFO:root:end_date: 2022-08-19, start_date:2022-08-09
+INFO:root:False
+INFO:root:stock_crawer.py function execution
+INFO:root:end_date: 2022-08-19, start_date:2022-08-09
+INFO:root:successful save 0050
+INFO:root:False
+INFO:root:stock_crawer.py function execution
+INFO:root:end_date: 2022-08-19, start_date:2022-08-09
+INFO:root:successful save 0050
+INFO:root:False
+INFO:root:stock_crawer.py function execution
+INFO:root:end_date: 2022-08-19, start_date:2022-08-09
+INFO:root:successful save 2330
+INFO:root:False
+INFO:root:stock_crawer.py function execution
+INFO:root:end_date: 2022-08-19, start_date:2022-08-09
+INFO:root:successful save 2331
+INFO:root:True
+INFO:root:True
+INFO:root:False
+INFO:root:stock_crawer.py function execution
+INFO:root:end_date: 2022-08-19, start_date:2022-08-09
+INFO:root:False
+INFO:root:stock_crawer.py function execution
+INFO:root:end_date: 2022-08-19, start_date:2022-08-09
+INFO:root:False
+INFO:root:stock_crawer.py function execution
+INFO:root:end_date: 2022-08-19, start_date:2022-08-09
+INFO:root:False
+INFO:root:stock_crawer.py function execution
+INFO:root:end_date: 2022-08-19, start_date:2022-08-09
+INFO:root:False
+INFO:root:stock_crawer.py function execution
+INFO:root:end_date: 2022-08-19, start_date:2022-08-09
+INFO:root:successful save 0056
+INFO:root:True
+INFO:root:True
+INFO:root:True
+INFO:root:True
+INFO:root:True
+INFO:root:max_price: 29.3, min_price: 28.81, max_drawdown: -0.016723549488054674
+INFO:root:True
+INFO:root:max_price: 527.0, min_price: 500.0, max_drawdown: -0.051233396584440226
+INFO:root:True
+INFO:root:max_price: 527.0, min_price: 500.0, max_drawdown: -0.051233396584440226
+INFO:root:True
+INFO:root:True
+INFO:root:True
+INFO:root:True
+INFO:root:True
+INFO:root:True
+INFO:root:True
+INFO:root:True
+INFO:root:True
+INFO:root:True
+INFO:root:True
+INFO:root:True
+INFO:root:True
+INFO:root:True
+INFO:root:True
+INFO:root:True
+INFO:root:True
+INFO:root:True
+INFO:root:True
+INFO:root:True
+INFO:root:True
+INFO:root:True
+INFO:root:True
+INFO:root:True
+INFO:root:True
+INFO:root:True
+INFO:root:True
+INFO:root:True
+INFO:root:True
+INFO:root:True
+INFO:root:True
+INFO:root:True
+INFO:root:True
+INFO:root:True
+INFO:root:True
+INFO:root:True
+INFO:root:True
+INFO:root:True
+INFO:root:True
+INFO:root:True
+INFO:root:sortino_ratio: nan
+INFO:root:True
+INFO:root:sortino_ratio: (-4.1972764337251306e-18+0.06854672607069136j)
+INFO:root:True
+INFO:root:sortino_ratio: (-4.1972764337251306e-18+0.06854672607069136j)
+INFO:root:True
+INFO:root:sortino_ratio: (-4.1972764337251306e-18+0.06854672607069136j)
+INFO:root:True
+INFO:root:sortino_ratio: (-4.1972764337251306e-18+0.06854672607069136j)
+INFO:root:True
+INFO:root:skewness: 970386.8619402794, kurt: 16.185677217517597
+INFO:root:True
+INFO:root:max_price: 527.0, min_price: 500.0, max_drawdown: -0.051233396584440226
+INFO:root:True
+INFO:root:apr: 2.011842745445404
+INFO:root:True
+INFO:root:volatility: 0.24970461826689958
+INFO:root:True
+INFO:root:skewness: 970386.8619402794, kurt: 16.185677217517597
+INFO:root:True
+INFO:root:sortino_ratio: (-4.1972764337251306e-18+0.06854672607069136j)
+INFO:root:True
+INFO:root:max_price: 527.0, min_price: 500.0, max_drawdown: -0.051233396584440226
+INFO:root:True
+INFO:root:max_price: 527.0, min_price: 500.0, max_drawdown: -0.051233396584440226
+INFO:root:True
+INFO:root:apr: 2.011842745445404
+INFO:root:True
+INFO:root:volatility: 0.24970461826689958
+INFO:root:True
+INFO:root:skewness: 970386.8619402794, kurt: 16.185677217517597

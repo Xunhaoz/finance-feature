@@ -5,6 +5,7 @@ import os
 import stock_info.stock_crawer
 import globals
 import pandas as pd
+import finance_calculator as fc
 
 
 def is_file_exist(file_name):
@@ -24,7 +25,7 @@ def cal_max_drawdown():
     return max_price, min_price, max_drawdown
 
 
-def cal_apr():
+def cal_irr():
     df = pd.read_csv(globals.STOCK_PATH)['close']
     dr = df / df.shift(1)  # 取得損益百分比
     dr = dr.dropna()
@@ -47,29 +48,19 @@ def cal_volatility():
 def cal_skewness():
     df = pd.read_csv(globals.STOCK_PATH)['close']
     dr = df.pct_change().dropna()
-    niu = dr.sum() / len(dr)  # niu表示平均值,即期望.
-    niu2 = (dr ** 2).sum() / len(dr)  # niu2表示平方平均值
-    niu3 = (dr ** 3).sum() / len(dr)  # niu3表示三方平均值
-    sigma = math.sqrt(niu2 - niu * niu)
-    niu4 = ((dr - niu) ** 4).sum()  # 峰度公式分子
-    skewness = (niu3 - 3 * niu * sigma ** 2 - niu - -3) / (sigma ** 3)  # 偏度公式
-    kurt = niu4 / (sigma ** 4)
-    logging.info(f"skewness: {skewness}, kurt: {kurt}")
+    skewness = dr.skew()
+    kurt = dr.kurt()
     print(f"skewness: {skewness}, kurt: {kurt}")
+    logging.info(f"skewness: {skewness}, kurt: {kurt}")
     return skewness, kurt
 
 
 def cal_sortino_ratio():
     df = pd.read_csv(globals.STOCK_PATH)['close']
     dr = df.pct_change().dropna()
-
-    # downside deviation:
-    dr = dr.apply(lambda x: x if x < 0 else 0)
-    temp_expectation = dr.mean()
-    downside_dev = float(temp_expectation) ** 0.5
-
-    # Sortino ratio:
-    sortino_ratio = dr.mean() / downside_dev
+    mean = dr.mean() * 252
+    std_neg = dr[dr < 0].std() * (252 ** 0.5)
+    sortino_ratio = mean / std_neg
     print(f"sortino_ratio: {sortino_ratio}")
     logging.info(f"sortino_ratio: {sortino_ratio}")
     return sortino_ratio
@@ -100,7 +91,7 @@ if __name__ == "__main__":
         cal_max_drawdown()
     elif FEATURE == 1:
         # 年化報酬率
-        cal_apr()
+        cal_irr()
     elif FEATURE == 2:
         # 年化波動度
         cal_volatility()
@@ -108,4 +99,6 @@ if __name__ == "__main__":
         # 偏斜性
         cal_skewness()
     elif FEATURE == 4:
+
         cal_sortino_ratio()
+# skewness: 849441.9169631663, kurt: 13436.992232774108

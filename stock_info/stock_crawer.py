@@ -28,7 +28,7 @@ def download():
 
     # 設定時間序 十年
     end_date = date.today()
-    start_date = end_date - relativedelta(days=10)
+    start_date = end_date - relativedelta(years=10)
     logging.info(f"end_date: {end_date}, start_date:{start_date}")
 
     # 取得台股資料

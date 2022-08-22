@@ -136,3 +136,52 @@ INFO:root:True
 INFO:root:volatility: 0.24970461826689958
 INFO:root:True
 INFO:root:skewness: 970386.8619402794, kurt: 16.185677217517597
+INFO:root:False
+INFO:root:stock_crawer.py function execution
+INFO:root:end_date: 2022-08-21, start_date:2012-08-21
+INFO:root:False
+INFO:root:stock_crawer.py function execution
+INFO:root:end_date: 2022-08-21, start_date:2012-08-21
+INFO:root:False
+INFO:root:stock_crawer.py function execution
+INFO:root:end_date: 2022-08-21, start_date:2012-08-21
+INFO:root:successful save 2330
+INFO:root:max_price: 683.0, min_price: 81.1, max_drawdown: -0.8812591508052708
+INFO:root:True
+INFO:root:apr: 1.2064107111738096
+INFO:root:True
+INFO:root:volatility: 0.24177415593997167
+INFO:root:True
+INFO:root:volatility: 0.24177415593997167
+INFO:root:True
+INFO:root:skewness: 849441.9169631663, kurt: 13436.992232774108
+INFO:root:True
+INFO:root:True
+INFO:root:True
+INFO:root:True
+INFO:root:True
+INFO:root:True
+INFO:root:True
+INFO:root:sortino_ratio: (-4.437361526612437e-18+0.07246761318776812j)
+INFO:root:True
+INFO:root:True
+INFO:root:True
+INFO:root:True
+INFO:root:True
+INFO:root:volatility: 0.24177415593997167
+INFO:root:True
+INFO:root:sortino_ratio: (-4.437361526612437e-18+0.07246761318776812j)
+INFO:root:True
+INFO:root:sortino_ratio: 1.4432714207846205
+INFO:root:False
+INFO:root:stock_crawer.py function execution
+INFO:root:end_date: 2022-08-21, start_date:2012-08-21
+INFO:root:successful save 0050
+INFO:root:sortino_ratio: 0.8130159604262617
+INFO:root:False
+INFO:root:stock_crawer.py function execution
+INFO:root:end_date: 2022-08-21, start_date:2012-08-21
+INFO:root:successful save 0056
+INFO:root:sortino_ratio: 0.2028966094360093
+INFO:root:True
+INFO:root:sortino_ratio: 1.4432714207846205

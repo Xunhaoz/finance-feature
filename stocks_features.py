@@ -5,7 +5,6 @@ import os
 import stock_info.stock_crawer
 import globals
 import pandas as pd
-import finance_calculator as fc
 
 
 def is_file_exist(file_name):
@@ -56,7 +55,8 @@ def cal_skewness():
 
 
 def cal_sortino_ratio():
-    df = pd.read_csv(globals.STOCK_PATH)['close']
+    df = pd.read_csv(globals.STOCK_PATH)
+    df = df[~(df['close'] == 0)]['close']
     dr = df.pct_change().dropna()
     mean = dr.mean() * 252
     std_neg = dr[dr < 0].std() * (252 ** 0.5)
